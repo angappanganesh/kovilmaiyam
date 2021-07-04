@@ -1,0 +1,152 @@
+name: kovilmaiyam
+description: Kovilmaiyam Application
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.18.0 #it helps us to use SVG in our app
+  firebase_core : ^0.6.0
+  cloud_firestore: "^0.15.0"
+  google_fonts: ^1.1.0
+  smart_select:
+    path: thirdparty/flutter_smart_select-master
+  theme_patrol: ^0.0.1
+  dio: ^3.0.7
+  sticky_headers: ^0.1.8+1
+  flutter_staggered_animations: "^0.1.2"
+
+  permission_handler: 4.4.0
+  ext_storage: any
+
+  font_awesome_flutter: ^8.5.0
+  #animation
+  animated_text_kit: ^2.0.0
+
+  #sharing to whatsapp
+  esys_flutter_share: ^1.0.2
+
+  #buttons in admin login
+  progress_state_button: "^1.0.2"
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+  webview_flutter: ^0.1.1
+  url_launcher: ^4.0.2
+
+  flutter_launcher_icons: ^0.8.0
+
+  lottie: ^0.7.0+1
+  material_dialogs: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/images/avnsm.png"
+  android: true
+  ios: false
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/avnsm.png
+    - assets/images/temple.png
+    - assets/images/saraswati.png
+    - assets/images/dhanvantari.png
+    - assets/images/shakti.png
+    - assets/images/mano.png
+    - assets/images/prabhanjam.png
+    - assets/images/bg20.png
+    - assets/images/maiyamcollage2.png
+    - assets/images/maiyamcollage3.jpg
+    - assets/images/portraitcollage3.jpg
+    - assets/images/portraitcollage4.jpg
+    - assets/images/portraitcollage6.jpg
+    - assets/images/frontscreened/natraj4.jpg
+    - assets/images/bloom.png
+    - assets/icons/back.svg
+    - assets/icons/details16.ico
+    - assets/images/templebw.png
+    - assets/icons/temple4.png
+    - assets/icons/addevent.png
+    - assets/icons/cart_with_item.svg
+    - assets/icons/chat.svg
+    - assets/icons/notification.svg
+    - assets/icons/search.svg
+    - assets/icons/shopping-bag.svg
+    - assets/lottie/success1.json
+    - assets/lottie/success2.json
+    - assets/lottie/success3.json
+    - assets/lottie/success4.json
+    - assets/lottie/failure1.json
+    - assets/lottie/construction.json
+    - assets/lottie/congrats.json
+
+  fonts:
+    - family: nunito
+      fonts:
+        - asset: assets/fonts/nunito/Nunito-Black.ttf
+        - asset: assets/fonts/nunito/Nunito-Bold.ttf
+        - asset: assets/fonts/nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/nunito/Nunito-Light.ttf
+    - family: trocchi
+      fonts:
+        - asset: assets/fonts/trocchi/Trocchi-Regular.ttf
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

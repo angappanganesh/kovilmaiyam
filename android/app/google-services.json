@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "543020472830",
+    "project_id": "kovilmaiyam-cb299",
+    "storage_bucket": "kovilmaiyam-cb299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543020472830:android:58cee7e87827e0bb4508af",
+        "android_client_info": {
+          "package_name": "com.avnsm.kovilmaiyam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543020472830-viha7dla6uc0me4jq3jnb9ur8k1oeq0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDliijk4SlW7wMQ9N8XkcbIFvYVfpOJoVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543020472830-viha7dla6uc0me4jq3jnb9ur8k1oeq0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
